@@ -20,11 +20,11 @@ from tg_bot.modules.helper_funcs.misc import paginate_modules
 PM_START_TEXT = """
 Hey there! My name is *{GROUP MANGER BOT🔥🔥}*, I'm here to help you manage your groups! Hit /help to find out more about how to use me to my full potential.
 
-Join my [news channel]() to get information on all the latest updates.
+Join my [news channel](https://t.me/cccheckkergroup) to get information on all the latest updates.
 """
 
 HELP_STRINGS = """
-Hey! My name is *{}*. I am a group management bot, here to help you get around and keep the order in your groups!
+Hey! My name is *{group manger}*. I am a group management bot, here to help you get around and keep the order in your groups!
 I have lots of handy features, such as flood control, a warning system, a note keeping system, and even predetermined replies on certain keywords.
 
 *Helpful commands*:
