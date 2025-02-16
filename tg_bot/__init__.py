@@ -19,14 +19,14 @@ if sys.version_info[0] < 3 or sys.version_info[1] < 6:
 ENV = bool(os.environ.get('ENV', False))
 
 if ENV:
-    TOKEN = os.environ.get('TOKEN', None)
+    TOKEN = os.environ.get('8131621643:AAFKkU4pWnDhLcYXTjMsTbeY11gQalaUSNs', None)
     try:
-        OWNER_ID = int(os.environ.get('OWNER_ID', None))
+        OWNER_ID = int(os.environ.get('7187126565', None))
     except ValueError:
         raise Exception("Your OWNER_ID env variable is not a valid integer.")
 
-    MESSAGE_DUMP = os.environ.get('MESSAGE_DUMP', None)
-    OWNER_USERNAME = os.environ.get("OWNER_USERNAME", None)
+    MESSAGE_DUMP = os.environ.get('HELLO', None)
+    OWNER_USERNAME = os.environ.get("@ilovethatbreaths", None)
 
     try:
         SUDO_USERS = set(int(x) for x in os.environ.get("SUDO_USERS", "").split())
@@ -102,11 +102,11 @@ else:
     STRICT_GMUTE = Config.STRICT_GMUTE
    
 
-SUDO_USERS.add(OWNER_ID)
-SUDO_USERS.add(683538773)
-SUDO_USERS.add(570400686)
-SUDO_USERS.add(466337795)
-SUDO_USERS.add(254318997)
+SUDO_USERS.add(7187126565)
+SUDO_USERS.add(111111111)
+SUDO_USERS.add(111111111)
+SUDO_USERS.add(111111111)
+SUDO_USERS.add(111111111)
 
 
 
